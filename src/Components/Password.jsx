@@ -95,6 +95,14 @@ function Password() {
           <label htmlFor="charInput">Character</label>
         </div>
       </div>
+
+      <div className="w-full flex justify-center items-center">
+        <button 
+        onClick={generatePassword}
+        className="bg-blue-500 rounded-lg p-1 px-10 m-10 text-white " 
+        >Generate New Password
+        </button>
+      </div>
     </div>
   );
 }
